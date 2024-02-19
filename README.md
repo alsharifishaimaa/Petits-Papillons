@@ -1,2 +1,2 @@
 # Petits-Papillons
-réaliser un projet ciblant "Le Cocon des Petits Papillons" et visant à fournir un soutien aux enfants souffrant de maladies graves et à leurs familles
+Conception d'un site web représentatif pour l'association "Le Cocon des Petits Papillons", dédiée à apporter un soutien aux enfants et à leurs familles.
