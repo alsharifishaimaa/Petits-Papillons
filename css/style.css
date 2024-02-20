@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/****************style general******************/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/********** Header******************/
+
+header {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo {
+    flex-grow: 1; 
+}
+
+#logo img {
+    height: 130px; 
+    width: auto; 
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #004443;
+    font-size: 32px;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #1B7F7A;
+}
+
+/********** Footer******************/
+
+footer {
+    background-color: #1B7F7A;
+    padding: 20px;
+    color: #FFF;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.divfoot{
+    display: flex;
+    justify-content: center;
+    
+}
+.foot1{
+    margin-top: 20px;
+}
+
+.foot1 h2{
+    text-align: center;
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px; 
+}
+
+.foot2{
+    margin-left: 400px;
+}
+.foot2 h2 {
+    text-align: center;
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.foot3 ul li{
+    text-align: center;
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.foot4 img {
+    height: 130px; 
+    width: auto; 
+}
+
+
